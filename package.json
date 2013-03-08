@@ -1,0 +1,42 @@
+{
+	"name": "cli-sudoku",
+
+	"description": "cli sudoku",
+
+	"version": "0.0.1",
+
+	"keywords": ["sudoku", "cli", "game"],
+
+	"maintainers": [{
+		"name": "Shaun Gilchrist",
+		"email": "shaunxcode@gmail.com",
+		"web": "http://order-of-no.posterous.com"
+	}], 
+
+	"contributors": [{
+		"name": "Shaun Gilchrist",
+		"email": "shaunxcode@gmail.com",
+		"web": "http://order-of-no.posterous.com"
+	}], 
+
+	"bugs": "http://www.github.com/shaunxcode/cli-sudokucu/issues",
+
+	"licenses": [{
+		"type": "MIT",
+		"url": "http://www.opensource.org/licenses/mit-license.php"
+	}],
+
+	"repositories": [{
+		"type": "git",
+		"url": "http://www.github.com/shaunxcode/cli-sudoku"
+	}],
+
+	"dependencies": {
+		"node-term-ui":  "https://github.com/shaunxcode/node-term-ui/tarball/master",
+		"sudoku": "*"
+	},
+	"bin": {
+		"cli-sudoku": "./bin/cli-sudoku"
+	}
+}
+
